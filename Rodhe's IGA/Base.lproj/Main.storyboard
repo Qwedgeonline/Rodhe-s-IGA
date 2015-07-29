@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shopping List-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Rodhe_s_IGA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rodhebg" translatesAutoresizingMaskIntoConstraints="NO" id="4C4-yn-vlD">
+                                <rect key="frame" x="0.0" y="0.0" width="750" height="1334"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="                 Tap on each box to enter text" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="adf-mB-xR6">
+                                <rect key="frame" x="16" y="96" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="h3R-Jd-r5W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="haf-6Z-DgL">
+                                <rect key="frame" x="16" y="134" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="nUI-Bq-ppG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="PB8-H2-iHf">
+                                <rect key="frame" x="16" y="172" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="jSO-HY-PbZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="4kt-0B-gyg">
+                                <rect key="frame" x="16" y="210" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="EUS-7k-pXn"/>
+                                    <constraint firstAttribute="width" constant="343" id="hS2-s1-mXR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="BCs-dt-34T">
+                                <rect key="frame" x="16" y="248" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="HJX-2E-80N"/>
+                                    <constraint firstAttribute="width" constant="343" id="QQ0-mP-qB9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="DtB-Ui-Eb8">
+                                <rect key="frame" x="16" y="286" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="tBh-PB-of3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="6AA-3O-00Y">
+                                <rect key="frame" x="16" y="324" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="wUH-LQ-J4s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fav-yd-1t1">
+                                <rect key="frame" x="16" y="362" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="X1B-Ek-6aC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WGV-DW-bdJ">
+                                <rect key="frame" x="16" y="400" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Gfj-9m-HvG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Z3d-bR-rxY">
+                                <rect key="frame" x="16" y="438" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="8f6-QY-eib"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gQJ-Jq-BZQ">
+                                <rect key="frame" x="16" y="476" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Jgy-Yb-dnq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mEJ-Y2-TEA">
+                                <rect key="frame" x="16" y="514" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="GTo-9f-BVi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="nag-i2-RkT">
+                                <rect key="frame" x="16" y="552" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="g6C-oR-r6N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="next"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B5I-va-zYG">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="nLF-DL-Cnf"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Shopping List" id="VTX-ST-lpC"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="6AA-3O-00Y" secondAttribute="centerY" constant="-5.5" id="1OI-5X-ha4"/>
+                            <constraint firstAttribute="centerY" secondItem="Z3d-bR-rxY" secondAttribute="centerY" constant="-119.5" id="2Eh-vV-rQq"/>
+                            <constraint firstAttribute="centerY" secondItem="PB8-H2-iHf" secondAttribute="centerY" constant="146.5" id="7fL-7N-SRi"/>
+                            <constraint firstAttribute="centerX" secondItem="haf-6Z-DgL" secondAttribute="centerX" id="Ceo-k0-FHG"/>
+                            <constraint firstAttribute="centerX" secondItem="fav-yd-1t1" secondAttribute="centerX" id="E2a-3K-3Aj"/>
+                            <constraint firstAttribute="centerY" secondItem="gQJ-Jq-BZQ" secondAttribute="centerY" constant="-157.5" id="G4U-ip-DB7"/>
+                            <constraint firstAttribute="centerY" secondItem="B5I-va-zYG" secondAttribute="centerY" constant="291.5" id="LAb-Jg-Jyx"/>
+                            <constraint firstAttribute="centerY" secondItem="DtB-Ui-Eb8" secondAttribute="centerY" constant="32.5" id="LeZ-r9-01z"/>
+                            <constraint firstAttribute="centerX" secondItem="mEJ-Y2-TEA" secondAttribute="centerX" id="MGN-BB-IPw"/>
+                            <constraint firstAttribute="centerY" secondItem="PB8-H2-iHf" secondAttribute="centerY" constant="146.5" id="MWR-v8-obA"/>
+                            <constraint firstAttribute="centerY" secondItem="mEJ-Y2-TEA" secondAttribute="centerY" constant="-195.5" id="O6t-7t-iFL"/>
+                            <constraint firstAttribute="centerY" secondItem="4kt-0B-gyg" secondAttribute="centerY" constant="108.5" id="OwL-TP-Kvx"/>
+                            <constraint firstAttribute="centerY" secondItem="4kt-0B-gyg" secondAttribute="centerY" constant="108.5" id="PBK-VA-pwY"/>
+                            <constraint firstAttribute="centerX" secondItem="gQJ-Jq-BZQ" secondAttribute="centerX" id="Z5A-RJ-a4o"/>
+                            <constraint firstAttribute="centerY" secondItem="nag-i2-RkT" secondAttribute="centerY" constant="-233.5" id="cYl-Dw-KdN"/>
+                            <constraint firstAttribute="centerY" secondItem="haf-6Z-DgL" secondAttribute="centerY" constant="184.5" id="dPj-R4-e6y"/>
+                            <constraint firstAttribute="centerY" secondItem="adf-mB-xR6" secondAttribute="centerY" constant="222.5" id="dhs-Ou-vn9"/>
+                            <constraint firstAttribute="centerX" secondItem="Z3d-bR-rxY" secondAttribute="centerX" id="equ-e5-jBT"/>
+                            <constraint firstAttribute="centerX" secondItem="BCs-dt-34T" secondAttribute="centerX" id="erl-Xi-Ndh"/>
+                            <constraint firstAttribute="centerY" secondItem="4kt-0B-gyg" secondAttribute="centerY" constant="108.5" id="f3e-dJ-tiD"/>
+                            <constraint firstAttribute="centerY" secondItem="haf-6Z-DgL" secondAttribute="centerY" constant="184.5" id="gQe-CO-bhT"/>
+                            <constraint firstAttribute="centerY" secondItem="WGV-DW-bdJ" secondAttribute="centerY" constant="-81.5" id="gWO-1m-dbe"/>
+                            <constraint firstAttribute="centerX" secondItem="B5I-va-zYG" secondAttribute="centerX" id="hXm-Ir-hNA"/>
+                            <constraint firstAttribute="centerX" secondItem="DtB-Ui-Eb8" secondAttribute="centerX" id="ibJ-1B-5uV"/>
+                            <constraint firstAttribute="centerX" secondItem="adf-mB-xR6" secondAttribute="centerX" id="k1h-Ob-OwP"/>
+                            <constraint firstAttribute="centerY" secondItem="BCs-dt-34T" secondAttribute="centerY" constant="70.5" id="lEI-if-8bM"/>
+                            <constraint firstAttribute="centerX" secondItem="WGV-DW-bdJ" secondAttribute="centerX" id="n5C-lz-pnI"/>
+                            <constraint firstAttribute="centerY" secondItem="adf-mB-xR6" secondAttribute="centerY" constant="222.5" id="nVH-9j-hk0"/>
+                            <constraint firstAttribute="centerY" secondItem="4kt-0B-gyg" secondAttribute="centerY" constant="108.5" id="p1T-SH-F3W"/>
+                            <constraint firstAttribute="centerX" secondItem="PB8-H2-iHf" secondAttribute="centerX" id="pCP-xE-ZOR"/>
+                            <constraint firstAttribute="centerX" secondItem="6AA-3O-00Y" secondAttribute="centerX" id="pyc-fv-bae"/>
+                            <constraint firstAttribute="centerY" secondItem="BCs-dt-34T" secondAttribute="centerY" constant="70.5" id="qez-Cj-g2M"/>
+                            <constraint firstAttribute="centerX" secondItem="nag-i2-RkT" secondAttribute="centerX" id="qkE-ef-nPG"/>
+                            <constraint firstAttribute="centerX" secondItem="4kt-0B-gyg" secondAttribute="centerX" id="rMy-yF-gXf"/>
+                            <constraint firstAttribute="centerX" secondItem="4kt-0B-gyg" secondAttribute="centerX" id="tZM-4x-0MS"/>
+                            <constraint firstAttribute="centerY" secondItem="fav-yd-1t1" secondAttribute="centerY" constant="-43.5" id="zZ1-2G-HR4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Shopping List" image="shopping2-1" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="743.5" y="-566.5"/>
+        </scene>
+        <!--Weekly Ad-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Rodhe_s_IGA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I07-oQ-OgW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Weekly Ad" image="10130-book-3-vector" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="webview" destination="I07-oQ-OgW" id="JWg-Fj-XdK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="743.5" y="145.5"/>
+        </scene>
+        <!--Store Locator-->
+        <scene sceneID="0he-51-ASc">
+            <objects>
+                <viewController id="ChC-2U-lc2" customClass="ThirdViewController" customModule="Rodhe_s_IGA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NAI-lP-eX6"/>
+                        <viewControllerLayoutGuide type="bottom" id="w3Q-TI-Q5N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UrK-fz-HCP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="XaC-AI-ngd">
+                                <rect key="frame" x="0.0" y="20" width="375" height="667"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XaC-AI-ngd" firstAttribute="leading" secondItem="UrK-fz-HCP" secondAttribute="leading" id="D4V-BY-Tjp"/>
+                            <constraint firstAttribute="trailing" secondItem="XaC-AI-ngd" secondAttribute="trailing" id="HXu-rW-VEl"/>
+                            <constraint firstItem="XaC-AI-ngd" firstAttribute="top" secondItem="NAI-lP-eX6" secondAttribute="bottom" id="TTc-fI-UYp"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="XaC-AI-ngd" secondAttribute="bottom" constant="-20" id="lAn-ti-2Q8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Store Locator" image="1024px-Globe_icon.svg" id="HZW-dH-Uqs"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="ddfsadfsd" destination="XaC-AI-ngd" id="2pU-pn-MNw"/>
+                        <outlet property="mapview" destination="XaC-AI-ngd" id="kKU-Vm-5hW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdE-xU-VY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="743.5" y="916.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="ChC-2U-lc2" kind="relationship" relationship="viewControllers" id="Ev3-1s-h2x"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119.5" y="145.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="10130-book-3-vector" width="30" height="26"/>
+        <image name="1024px-Globe_icon.svg" width="30" height="30"/>
+        <image name="rodhebg" width="750" height="1334"/>
+        <image name="shopping2-1" width="40" height="40"/>
+    </resources>
+</document>
